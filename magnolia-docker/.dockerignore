@@ -1,0 +1,30 @@
+# ========== Java / Maven ==========
+**/target/*
+!your-project-webapp/target/magnolia-webapp.war
+
+**/logs/
+*.log
+*.tmp
+*.bak
+
+# ========== IDEs ==========
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ========== macOS / Windows ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========== Node / Webdev (falls vorhanden) ==========
+node_modules/
+dist/
+build/
+
+# ========== Git ==========
+.git
+.gitignore
